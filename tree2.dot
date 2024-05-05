@@ -1,0 +1,13 @@
+digraph tree{
+    0 [shape="circle"label = "1.16"];
+    1 [shape="circle"label = "5.48"];
+    2 [shape="circle"label = "10.56"];
+    3 [shape="circle"label = "-47.32"];
+    4 [shape="circle"label = "59.36"];
+    5 [shape="circle"label = "5.32"];
+    0->3;
+    0->1;
+    1->5;
+    1->2;
+    2->4;
+}

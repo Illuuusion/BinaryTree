@@ -1,0 +1,7 @@
+digraph tree{
+    0 [shape="circle"label = "1"];
+    1 [shape="circle"label = "10"];
+    2 [shape="circle"label = "-6"];
+    0->2;
+    0->1;
+}
